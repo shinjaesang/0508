@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no,width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            width: 960px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        #menu{
+            width: 260px;
+            float: left;
+        }
+        #section{
+            width: 700px;
+            float: right;
+        }
+        li{
+            list-style: none;
+        }
+        /*  스마트폰인 경우*/
+        @media screen and (max-width: 767px){
+            body{
+                width: auto;
+            }
+            #menu{
+                width: auto;
+                float: none;
+            }
+            #section{
+                width: auto;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="section">
+    <h1>Lorem ipsum dolor sit amet</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. In suscipit consectetur possimus eveniet excepturi tempore, saepe rem consequatur rerum vitae, aut cumque earum necessitatibus similique qui non iste eius deserunt?
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, iste. Cupiditate doloremque eius mollitia quisquam quo corporis. Quod incidunt necessitatibus doloribus explicabo reiciendis corporis, impedit maxime, dolorem, eum architecto adipisci.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea accusantium porro incidunt doloremque minus ex saepe cupiditate sint maiores, accusamus error enim, tempora non necessitatibus at, fuga illo ipsum neque! 
+    </p>
+    </div>
+    <div id="menu">
+        <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+        </ul>
+    </div>
+</body>
+</html>
